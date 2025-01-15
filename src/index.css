@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+body {
+  border-style: none;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+  border: none;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.buttonContainer {
+  width: 70dvw;
+  /* height: 80dvh; */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  justify-content: center;
+  gap: 1px;
+  padding: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 40px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: none;
+}
+
+h1 {
+  color: black;
+  padding-left: 20px;
+}
+
+h3 {
+  padding: 0px;
+  border: none;
+}
