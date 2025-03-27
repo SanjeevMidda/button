@@ -20,7 +20,7 @@ body {
 
 .mainContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /* border: 1px solid black; */
 }
 
